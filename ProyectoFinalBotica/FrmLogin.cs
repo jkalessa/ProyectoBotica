@@ -49,8 +49,11 @@ namespace ProyectoFinalBotica
 
             Hide();
             m_Principal.ShowDialog();
+
             txtUsername.Clear();
+
             txtPassword.Clear();
+
             txtUsername.Focus();
             Show();
         }
