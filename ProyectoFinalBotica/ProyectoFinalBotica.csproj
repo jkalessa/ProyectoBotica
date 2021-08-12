@@ -101,6 +101,12 @@
     <Compile Include="FrmMenu_Administrador.Designer.cs">
       <DependentUpon>FrmMenu_Administrador.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmMenu_Admin_reportedeventa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenu_Admin_reportedeventa.Designer.cs">
+      <DependentUpon>FrmMenu_Admin_reportedeventa.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMenu_Cajero.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -190,6 +196,9 @@
     <EmbeddedResource Include="FrmMenu_Administrador.resx">
       <DependentUpon>FrmMenu_Administrador.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenu_Admin_reportedeventa.resx">
+      <DependentUpon>FrmMenu_Admin_reportedeventa.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMenu_Cajero.resx">
       <DependentUpon>FrmMenu_Cajero.cs</DependentUpon>
     </EmbeddedResource>
@@ -267,6 +276,8 @@
   <ItemGroup>
     <None Include="Resources\logout.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\reporte de ventas.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
