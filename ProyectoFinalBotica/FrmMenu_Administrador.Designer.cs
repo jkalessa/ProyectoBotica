@@ -30,10 +30,10 @@ namespace ProyectoFinalBotica
         private void InitializeComponent()
         {
             this.btnReclamos = new System.Windows.Forms.Button();
-            this.btnIngresosEgresos = new System.Windows.Forms.Button();
+            this.btnlistaproductos = new System.Windows.Forms.Button();
             this.btnUsuarios = new System.Windows.Forms.Button();
-            this.btnCaja = new System.Windows.Forms.Button();
-            this.btnGenerarPedido = new System.Windows.Forms.Button();
+            this.btnProveedores = new System.Windows.Forms.Button();
+            this.btnRepVenta = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -48,16 +48,16 @@ namespace ProyectoFinalBotica
             this.btnReclamos.UseVisualStyleBackColor = true;
             this.btnReclamos.Click += new System.EventHandler(this.btnReclamos_Click);
             // 
-            // btnIngresosEgresos
+            // btnlistaproductos
             // 
-            this.btnIngresosEgresos.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIngresosEgresos.Location = new System.Drawing.Point(493, 281);
-            this.btnIngresosEgresos.Name = "btnIngresosEgresos";
-            this.btnIngresosEgresos.Size = new System.Drawing.Size(360, 120);
-            this.btnIngresosEgresos.TabIndex = 15;
-            this.btnIngresosEgresos.Text = "Ingresos / Egresos";
-            this.btnIngresosEgresos.UseVisualStyleBackColor = true;
-            this.btnIngresosEgresos.Click += new System.EventHandler(this.btnIngresosEgresos_Click);
+            this.btnlistaproductos.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnlistaproductos.Location = new System.Drawing.Point(493, 281);
+            this.btnlistaproductos.Name = "btnlistaproductos";
+            this.btnlistaproductos.Size = new System.Drawing.Size(360, 120);
+            this.btnlistaproductos.TabIndex = 15;
+            this.btnlistaproductos.Text = "Lista de Productos";
+            this.btnlistaproductos.UseVisualStyleBackColor = true;
+            this.btnlistaproductos.Click += new System.EventHandler(this.btnIngresosEgresos_Click);
             // 
             // btnUsuarios
             // 
@@ -70,25 +70,25 @@ namespace ProyectoFinalBotica
             this.btnUsuarios.UseVisualStyleBackColor = true;
             this.btnUsuarios.Click += new System.EventHandler(this.btnUsuarios_Click);
             // 
-            // btnCaja
+            // btnProveedores
             // 
-            this.btnCaja.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCaja.Location = new System.Drawing.Point(111, 280);
-            this.btnCaja.Name = "btnCaja";
-            this.btnCaja.Size = new System.Drawing.Size(360, 120);
-            this.btnCaja.TabIndex = 14;
-            this.btnCaja.Text = "Caja";
-            this.btnCaja.UseVisualStyleBackColor = true;
+            this.btnProveedores.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProveedores.Location = new System.Drawing.Point(111, 280);
+            this.btnProveedores.Name = "btnProveedores";
+            this.btnProveedores.Size = new System.Drawing.Size(360, 120);
+            this.btnProveedores.TabIndex = 14;
+            this.btnProveedores.Text = "Proveedores";
+            this.btnProveedores.UseVisualStyleBackColor = true;
             // 
-            // btnGenerarPedido
+            // btnRepVenta
             // 
-            this.btnGenerarPedido.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGenerarPedido.Location = new System.Drawing.Point(111, 138);
-            this.btnGenerarPedido.Name = "btnGenerarPedido";
-            this.btnGenerarPedido.Size = new System.Drawing.Size(360, 120);
-            this.btnGenerarPedido.TabIndex = 12;
-            this.btnGenerarPedido.Text = "Generar Pedido";
-            this.btnGenerarPedido.UseVisualStyleBackColor = true;
+            this.btnRepVenta.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRepVenta.Location = new System.Drawing.Point(111, 138);
+            this.btnRepVenta.Name = "btnRepVenta";
+            this.btnRepVenta.Size = new System.Drawing.Size(360, 120);
+            this.btnRepVenta.TabIndex = 12;
+            this.btnRepVenta.Text = "Reporte de Venta";
+            this.btnRepVenta.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -106,10 +106,10 @@ namespace ProyectoFinalBotica
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(964, 681);
             this.Controls.Add(this.btnReclamos);
-            this.Controls.Add(this.btnIngresosEgresos);
+            this.Controls.Add(this.btnlistaproductos);
             this.Controls.Add(this.btnUsuarios);
-            this.Controls.Add(this.btnCaja);
-            this.Controls.Add(this.btnGenerarPedido);
+            this.Controls.Add(this.btnProveedores);
+            this.Controls.Add(this.btnRepVenta);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmMenu_Administrador";
@@ -122,10 +122,10 @@ namespace ProyectoFinalBotica
         #endregion
 
         private System.Windows.Forms.Button btnReclamos;
-        private System.Windows.Forms.Button btnIngresosEgresos;
+        private System.Windows.Forms.Button btnlistaproductos;
         private System.Windows.Forms.Button btnUsuarios;
-        private System.Windows.Forms.Button btnCaja;
-        private System.Windows.Forms.Button btnGenerarPedido;
+        private System.Windows.Forms.Button btnProveedores;
+        private System.Windows.Forms.Button btnRepVenta;
         private System.Windows.Forms.Label label1;
     }
 }

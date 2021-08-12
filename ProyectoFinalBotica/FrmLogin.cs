@@ -55,6 +55,7 @@ namespace ProyectoFinalBotica
             txtPassword.Clear();
 
             txtUsername.Focus();
+
             Show();
         }
 
