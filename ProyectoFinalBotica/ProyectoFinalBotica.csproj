@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmMenu_Admin_proveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenu_Admin_proveedores.Designer.cs">
+      <DependentUpon>FrmMenu_Admin_proveedores.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmBuscarProducto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -169,6 +175,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmMenu_Admin_proveedores.resx">
+      <DependentUpon>FrmMenu_Admin_proveedores.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmCaja.resx">
       <DependentUpon>FrmCaja.cs</DependentUpon>
     </EmbeddedResource>
@@ -278,6 +287,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\reporte de ventas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\persona.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
