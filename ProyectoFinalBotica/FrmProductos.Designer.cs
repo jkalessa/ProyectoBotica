@@ -31,14 +31,6 @@ namespace ProyectoFinalBotica
         {
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Nro = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NombresApellidos = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DNI = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Direccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ComprasRealizadas = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Edad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Telefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Correo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button5 = new System.Windows.Forms.Button();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -52,6 +44,17 @@ namespace ProyectoFinalBotica
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.Id_Producto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nombre_Comercial = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Rubro = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Presentacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Entrada_Compra = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Salida_Venta = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Saldo_Stock = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Estado = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Lote = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Fecha_Vcto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -71,73 +74,22 @@ namespace ProyectoFinalBotica
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Nro,
-            this.NombresApellidos,
-            this.DNI,
-            this.Direccion,
-            this.ComprasRealizadas,
-            this.Edad,
-            this.Telefono,
-            this.Correo});
+            this.Id_Producto,
+            this.Descripcion,
+            this.Nombre_Comercial,
+            this.Rubro,
+            this.Presentacion,
+            this.Entrada_Compra,
+            this.Salida_Venta,
+            this.Saldo_Stock,
+            this.Estado,
+            this.Lote,
+            this.Fecha_Vcto});
             this.dataGridView1.Location = new System.Drawing.Point(12, 249);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(940, 420);
             this.dataGridView1.TabIndex = 85;
-            // 
-            // Nro
-            // 
-            this.Nro.HeaderText = "Nro";
-            this.Nro.Name = "Nro";
-            this.Nro.ReadOnly = true;
-            this.Nro.Width = 40;
-            // 
-            // NombresApellidos
-            // 
-            this.NombresApellidos.HeaderText = "Nombres y Apellidos";
-            this.NombresApellidos.Name = "NombresApellidos";
-            this.NombresApellidos.ReadOnly = true;
-            this.NombresApellidos.Width = 220;
-            // 
-            // DNI
-            // 
-            this.DNI.HeaderText = "DNI";
-            this.DNI.Name = "DNI";
-            this.DNI.ReadOnly = true;
-            this.DNI.Width = 80;
-            // 
-            // Direccion
-            // 
-            this.Direccion.HeaderText = "Direccion";
-            this.Direccion.Name = "Direccion";
-            this.Direccion.ReadOnly = true;
-            this.Direccion.Width = 120;
-            // 
-            // ComprasRealizadas
-            // 
-            this.ComprasRealizadas.HeaderText = "Compras Realizadas";
-            this.ComprasRealizadas.Name = "ComprasRealizadas";
-            this.ComprasRealizadas.ReadOnly = true;
-            this.ComprasRealizadas.Width = 140;
-            // 
-            // Edad
-            // 
-            this.Edad.HeaderText = "Edad";
-            this.Edad.Name = "Edad";
-            this.Edad.ReadOnly = true;
-            this.Edad.Width = 40;
-            // 
-            // Telefono
-            // 
-            this.Telefono.HeaderText = "Telefono";
-            this.Telefono.Name = "Telefono";
-            this.Telefono.ReadOnly = true;
-            // 
-            // Correo
-            // 
-            this.Correo.HeaderText = "Correo";
-            this.Correo.Name = "Correo";
-            this.Correo.ReadOnly = true;
             // 
             // button5
             // 
@@ -264,6 +216,72 @@ namespace ProyectoFinalBotica
             this.button2.Text = "Eliminar seleccionado";
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // Id_Producto
+            // 
+            this.Id_Producto.HeaderText = "Id_Producto";
+            this.Id_Producto.Name = "Id_Producto";
+            this.Id_Producto.ReadOnly = true;
+            // 
+            // Descripcion
+            // 
+            this.Descripcion.HeaderText = "Descripcion";
+            this.Descripcion.Name = "Descripcion";
+            this.Descripcion.ReadOnly = true;
+            // 
+            // Nombre_Comercial
+            // 
+            this.Nombre_Comercial.HeaderText = "Nombre_Comercial";
+            this.Nombre_Comercial.Name = "Nombre_Comercial";
+            this.Nombre_Comercial.ReadOnly = true;
+            // 
+            // Rubro
+            // 
+            this.Rubro.HeaderText = "Rubro";
+            this.Rubro.Name = "Rubro";
+            this.Rubro.ReadOnly = true;
+            // 
+            // Presentacion
+            // 
+            this.Presentacion.HeaderText = "Presentacion";
+            this.Presentacion.Name = "Presentacion";
+            this.Presentacion.ReadOnly = true;
+            // 
+            // Entrada_Compra
+            // 
+            this.Entrada_Compra.HeaderText = "Entrada_Compra";
+            this.Entrada_Compra.Name = "Entrada_Compra";
+            this.Entrada_Compra.ReadOnly = true;
+            // 
+            // Salida_Venta
+            // 
+            this.Salida_Venta.HeaderText = "Salida_Venta";
+            this.Salida_Venta.Name = "Salida_Venta";
+            this.Salida_Venta.ReadOnly = true;
+            // 
+            // Saldo_Stock
+            // 
+            this.Saldo_Stock.HeaderText = "Saldo_Stock";
+            this.Saldo_Stock.Name = "Saldo_Stock";
+            this.Saldo_Stock.ReadOnly = true;
+            // 
+            // Estado
+            // 
+            this.Estado.HeaderText = "Estado";
+            this.Estado.Name = "Estado";
+            this.Estado.ReadOnly = true;
+            // 
+            // Lote
+            // 
+            this.Lote.HeaderText = "Lote";
+            this.Lote.Name = "Lote";
+            this.Lote.ReadOnly = true;
+            // 
+            // Fecha_Vcto
+            // 
+            this.Fecha_Vcto.HeaderText = "Fecha_Vcto";
+            this.Fecha_Vcto.Name = "Fecha_Vcto";
+            this.Fecha_Vcto.ReadOnly = true;
+            // 
             // FrmProductos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -297,14 +315,6 @@ namespace ProyectoFinalBotica
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nro;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NombresApellidos;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DNI;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Direccion;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ComprasRealizadas;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Edad;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Telefono;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Correo;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label5;
@@ -318,5 +328,16 @@ namespace ProyectoFinalBotica
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Id_Producto;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Descripcion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre_Comercial;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Rubro;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Presentacion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Entrada_Compra;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Salida_Venta;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Saldo_Stock;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Estado;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Lote;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Fecha_Vcto;
     }
 }
