@@ -55,7 +55,7 @@ namespace ProyectoFinalBotica
             this.btnUsuarios.Name = "btnUsuarios";
             this.btnUsuarios.Size = new System.Drawing.Size(360, 120);
             this.btnUsuarios.TabIndex = 2;
-            this.btnUsuarios.Text = "Usuarios";
+            this.btnUsuarios.Text = "Stock de Producto";
             this.btnUsuarios.UseVisualStyleBackColor = true;
             // 
             // btnCajas
@@ -65,7 +65,7 @@ namespace ProyectoFinalBotica
             this.btnCajas.Name = "btnCajas";
             this.btnCajas.Size = new System.Drawing.Size(360, 120);
             this.btnCajas.TabIndex = 3;
-            this.btnCajas.Text = "Cajas";
+            this.btnCajas.Text = "Reporte de Pedido";
             this.btnCajas.UseVisualStyleBackColor = true;
             // 
             // btnIngresosEgresos
@@ -75,7 +75,7 @@ namespace ProyectoFinalBotica
             this.btnIngresosEgresos.Name = "btnIngresosEgresos";
             this.btnIngresosEgresos.Size = new System.Drawing.Size(360, 120);
             this.btnIngresosEgresos.TabIndex = 4;
-            this.btnIngresosEgresos.Text = "Ingresos / Egresos";
+            this.btnIngresosEgresos.Text = "Proveedores";
             this.btnIngresosEgresos.UseVisualStyleBackColor = true;
             // 
             // btnReclamos
