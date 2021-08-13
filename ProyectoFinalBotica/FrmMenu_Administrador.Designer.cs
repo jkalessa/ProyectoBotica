@@ -55,7 +55,7 @@ namespace ProyectoFinalBotica
             this.btnlistaproductos.Name = "btnlistaproductos";
             this.btnlistaproductos.Size = new System.Drawing.Size(360, 120);
             this.btnlistaproductos.TabIndex = 15;
-            this.btnlistaproductos.Text = "Lista de Productos";
+            this.btnlistaproductos.Text = "Estadisticas de ventas";
             this.btnlistaproductos.UseVisualStyleBackColor = true;
             this.btnlistaproductos.Click += new System.EventHandler(this.btnIngresosEgresos_Click);
             // 
