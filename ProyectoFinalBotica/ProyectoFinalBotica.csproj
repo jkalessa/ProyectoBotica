@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Frmgenerarcomprobante_boleta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmgenerarcomprobante_boleta.Designer.cs">
+      <DependentUpon>Frmgenerarcomprobante_boleta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frmgenerarcomprobante_factura.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -187,6 +193,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Frmgenerarcomprobante_boleta.resx">
+      <DependentUpon>Frmgenerarcomprobante_boleta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frmgenerarcomprobante_factura.resx">
       <DependentUpon>Frmgenerarcomprobante_factura.cs</DependentUpon>
     </EmbeddedResource>
