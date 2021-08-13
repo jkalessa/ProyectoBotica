@@ -318,6 +318,7 @@ namespace ProyectoFinalBotica
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Frmgenerarcomprobante_boleta";
             this.Text = "Frmgenerarcomprobante_boleta";
             this.Load += new System.EventHandler(this.Frmgenerarcomprobante_boleta_Load);
