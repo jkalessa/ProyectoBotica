@@ -167,6 +167,12 @@
     <Compile Include="FrmReporteVentas.Designer.cs">
       <DependentUpon>FrmReporteVentas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frmsctockproducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmsctockproducto.Designer.cs">
+      <DependentUpon>Frmsctockproducto.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmUsuarios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -235,6 +241,9 @@
     <EmbeddedResource Include="FrmReporteVentas.resx">
       <DependentUpon>FrmReporteVentas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frmsctockproducto.resx">
+      <DependentUpon>Frmsctockproducto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmUsuarios.resx">
       <DependentUpon>FrmUsuarios.cs</DependentUpon>
     </EmbeddedResource>
@@ -290,6 +299,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\persona.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diskette.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sincronizacion %282%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

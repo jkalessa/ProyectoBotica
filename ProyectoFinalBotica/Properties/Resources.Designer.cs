@@ -93,6 +93,16 @@ namespace ProyectoFinalBotica.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap diskette {
+            get {
+                object obj = ResourceManager.GetObject("diskette", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap login {
             get {
                 object obj = ResourceManager.GetObject("login", resourceCulture);
@@ -146,6 +156,16 @@ namespace ProyectoFinalBotica.Properties {
         internal static System.Drawing.Bitmap reporte_de_ventas {
             get {
                 object obj = ResourceManager.GetObject("reporte de ventas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sincronizacion__2_ {
+            get {
+                object obj = ResourceManager.GetObject("sincronizacion (2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
